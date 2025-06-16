@@ -20,7 +20,18 @@ Determine where a package should go:
 2) A package is **heavy** if:
 - Mass **≥ 20 kg**
 
-4.🧠 How It Works
+4.✅ How to Run
+-Clone the repository
+git clone https://github.com/your-username/package-sorter.git
+cd package-sorter
+
+-Make sure Python is installed
+Run this in your terminal: python --version
+
+-Run the script
+In your terminal, navigate to the folder where sorter.py is saved and run: python main.py
+
+5.🧠 How It Works
 
 ```python
 def sort(width: int, height: int, length: int, mass: int) -> str:
